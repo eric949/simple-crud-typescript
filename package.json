@@ -1,0 +1,35 @@
+{
+  "name": "simple-crud-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon --transpile-only src/server.ts",
+    "typeorm": "ts-node-dev ./node_momdules/.bin/typeorm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric949/simple-crud-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric949/simple-crud-typescript/issues"
+  },
+  "homepage": "https://github.com/eric949/simple-crud-typescript#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.12",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^2.0.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
